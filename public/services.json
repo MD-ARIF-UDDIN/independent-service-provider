@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "WEDDING PHOTOGRAPHY",
+        "price": "3000",
+        "description": "I provide wedding photography. Keep your memory with photo.",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "TOUR PHOTOGRAPHY",
+        "price": "1000",
+        "description":"Make your tour awesome with me",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "EDITING",
+        "price": "1500",
+        "description": "I provide video editing as well as photo editing.",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "CINEMATOGRAPHY",
+        "price": "1800",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    }
+]

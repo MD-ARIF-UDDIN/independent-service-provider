@@ -1,0 +1,12 @@
+.service{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.checkout-btn{
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    border: 2px solid;
+}

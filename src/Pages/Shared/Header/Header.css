@@ -1,0 +1,14 @@
+a{
+ font-size: 20px;
+}
+.header{
+    height:90px;
+    width: 100%;
+}
+.link:hover{
+color: blue;
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
