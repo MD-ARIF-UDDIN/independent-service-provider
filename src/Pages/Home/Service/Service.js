@@ -9,9 +9,9 @@ const Service = ({ service }) => {
     <div className="service">
       <img className="w-100" src={img} alt="" />
       <h2>{name}</h2>
-      <p>Price: {price}</p>
-      <p>
-        <small>{description}</small>
+      <h4>Price: {price}</h4>
+      <p className="describe">
+        {description}
       </p>
       <button onClick={() => navigate("/checkout")} className="checkout-btn btn btn-dark">CheckOut</button>
     </div>

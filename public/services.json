@@ -3,28 +3,28 @@
         "id": 1,
         "name": "WEDDING PHOTOGRAPHY",
         "price": "3000",
-        "description": "I provide wedding photography. Keep your memory with photo.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "description": "I provide wedding photography.My wedding services include pre weddig,post wedding.It also includes cinematography",
+        "img": "https://i.ibb.co/85SmHHk/s1-360x205.jpg"
     },
     {
         "id": 2,
-        "name": "TOUR PHOTOGRAPHY",
+        "name": "PHOTO SHOOTING",
         "price": "1000",
-        "description":"Make your tour awesome with me",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description":"I provide professional photography. My photography services include corporate photography and also studio photo services. ",
+        "img": "https://i.ibb.co/8db0P6g/s2-360x205.jpg"
     },
     {
         "id": 3,
         "name": "EDITING",
         "price": "1500",
-        "description": "I provide video editing as well as photo editing.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "description": "I provide video editing as well as photo editing. I provide professional editing and will make it breathtaking.",
+        "img": "https://i.ibb.co/GCVQD2P/s3-360x205.jpg"
     },
     {
         "id": 4,
-        "name": "CINEMATOGRAPHY",
+        "name": "VIDEO SHOOTING",
         "price": "1800",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "description": "I offer high level of video shooting.I am well aware of the lighting and the angles to make the video look good.I have every kit of video shooting to make your memory more awesome.",
+        "img": "https://i.ibb.co/MRhVJGQ/s4-360x205.jpg"
     }
 ]

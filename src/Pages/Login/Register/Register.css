@@ -11,3 +11,10 @@
     padding-left: 10px;
     margin-bottom: 15px;
 }
+
+.register-btn{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 48px;
+}
