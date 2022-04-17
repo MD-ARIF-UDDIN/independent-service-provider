@@ -24,7 +24,7 @@ const Blogs = () => {
           <p>
             A semantic element describes its meaning clearly to both the browser
             and the developer.It clearly defines about its content. It
-            introduces meaning to the web page rather than just presentation.It
+            introduces meaningthe web page rather than just presentation.It
             describes its meaning in human and machine readable way.For example,
             a "article" tag indicates that the enclosed text are about an
             article.Which means it is both semantic and presentational so people
