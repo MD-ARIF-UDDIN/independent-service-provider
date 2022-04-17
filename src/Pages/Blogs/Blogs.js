@@ -9,7 +9,7 @@ const Blogs = () => {
           <h3>Difference between authorization and authentication</h3>
           <p>
             The react Context API provides a way for react app to to produce
-            global variables which can be passed atound.To avoid passing props
+            global varkkkiables which can be passed atound.To avoid passing props
             through intermediate elements,we can use context API.It used when
             some data needs to be accessible by many components which are at
             nested level.It is an alternative to "prop drilling".If we want to
