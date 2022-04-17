@@ -3,10 +3,13 @@ import "./App.css";
 import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs";
 import Checkout from "./Pages/Checkout/Checkout";
-import Notfound from "./Pages/Notfound/Notfound";
 import Home from "./Pages/Home/Home/Home";
+import Login from "./Pages/Login/Login/Login";
+import Register from "./Pages/Login/Register/Register";
+import RequiredAuth from "./Pages/Login/RequiredAuth/RequiredAuth";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
+import Notfound from "./Pages/Shared/Notfound/Notfound";
 
 function App() {
   return (
@@ -14,9 +17,15 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="/checkout" element={<Checkout></Checkout>} />
+        <Route path="/checkout" element={
+        <RequiredAuth>
+          <Checkout></Checkout>
+        </RequiredAuth>
+        } />
         <Route path="/blogs" element={<Blogs></Blogs>} />
         <Route path="/about" element={<About></About>} />
+        <Route path="/login" element={<Login></Login>} />
+        <Route path="/register" element={<Register></Register>} />
         <Route path="*" element={<Notfound></Notfound>} />
       </Routes>
       <Footer></Footer>
