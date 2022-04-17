@@ -8,7 +8,7 @@ const Blogs = () => {
         <div className="ques-container card col p-5 m-5 rounded">
           <h3>Difference between authorization and authentication</h3>
           <p>
-            The react Context API provides a way for react app to to produce
+             Context API provides a way for react app to to produce
             global varkkkiables which can be passed atound.To avoid passing props
             through intermediate elements,we can use context API.It used when
             some data needs to bccessible by many components which are at
