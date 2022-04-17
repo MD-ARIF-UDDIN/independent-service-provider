@@ -11,7 +11,7 @@ const Blogs = () => {
             The react Context API provides a way for react app to to produce
             global varkkkiables which can be passed atound.To avoid passing props
             through intermediate elements,we can use context API.It used when
-            some data needs to be accessible by many components which are at
+            some data needs to bccessible by many components which are at
             nested level.It is an alternative to "prop drilling".If we want to
             define several unrelated conteuse each in its
             proper place in the app we can use Context API.
