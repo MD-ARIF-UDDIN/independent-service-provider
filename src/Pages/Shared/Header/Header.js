@@ -32,9 +32,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/">
                 <span className="link">Home</span>
               </Nav.Link>
-              <Nav.Link as={Link} to="checkout">
-                <span className="link"> CheckOut</span>
-              </Nav.Link>
+
               <Nav.Link as={Link} to="blogs">
                 <span className="link">Blogs</span>
               </Nav.Link>

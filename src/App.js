@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs";
-import Checkout from "./Pages/Checkout/Checkout";
+import ServiceDetail from "./Pages/ServiceDetail/ServiceDetail";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
@@ -17,9 +17,9 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="/checkout" element={
+        <Route path="/service/:serviceId" element={
         <RequiredAuth>
-          <Checkout></Checkout>
+          <ServiceDetail></ServiceDetail>
         </RequiredAuth>
         } />
         <Route path="/blogs" element={<Blogs></Blogs>} />

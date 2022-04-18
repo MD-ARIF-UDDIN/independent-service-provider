@@ -4,7 +4,11 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer id="footer">
-            <p className='text-center'><small>copyright arif</small></p>
+            <div>
+            <p className='text-center'><small>copyright Lens king</small><br />All rights and reserved</p>
+            
+            </div>
+            
         </footer>
     );
 };

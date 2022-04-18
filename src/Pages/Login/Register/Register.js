@@ -35,7 +35,7 @@ const Register = () => {
     //console.log('Updated profile');
   };
   return (
-    <div className="register-form mt-5">
+    <div className="re-form mt-5">
       <h2 className="text-center">Register</h2>
       <form onSubmit={handleRegister}>
         <input type="text" name="name" id="" placeholder="Your name" />

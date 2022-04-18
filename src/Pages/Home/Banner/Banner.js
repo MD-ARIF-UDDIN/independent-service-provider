@@ -10,7 +10,7 @@ const Banner = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={banner1} alt="First slide" />
           <Carousel.Caption>
-            <h3>Lens King</h3>
+            <h1>Lens King</h1>
             <p>Make your journey awesome with my services.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -18,7 +18,7 @@ const Banner = () => {
           <img className="d-block w-100" src={banner2} alt="Second slide" />
 
           <Carousel.Caption>
-            <h3>Lens king</h3>
+            <h1>Lens king</h1>
             <p>Trust and get full services</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -26,7 +26,7 @@ const Banner = () => {
           <img className="d-block w-100" src={banner3} alt="Third slide" />
 
           <Carousel.Caption>
-            <h3>Lens King</h3>
+            <h1>Lens King</h1>
             <p>
              I will make my lens talk.
             </p>
