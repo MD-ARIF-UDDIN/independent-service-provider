@@ -11,7 +11,7 @@ const Checkout = () => {
   return (
     <div className="service-details">
       <div className="contact">
-        <h1 className="text-center">Book Services:</h1>
+        <h1 className="text-center mb-3">Book Services:</h1>
         <form onSubmit={submitBook}>
           <input
             className="input-btn"
