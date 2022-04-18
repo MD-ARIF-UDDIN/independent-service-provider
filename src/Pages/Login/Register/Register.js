@@ -14,10 +14,14 @@ const Register = () => {
     useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
   const [updateProfile, updating, upadteError] = useUpdateProfile(auth);
 
+  let errorElement;
   const navigate = useNavigate();
   const navigateLogin = (event) => {
     navigate("/login");
   };
+  if (error) {
+    errorElement = <p className="text-danger">Error: {error?.message}</p>;
+  }
   if (loading || updating) {
     return <Loading></Loading>;
   }
@@ -32,7 +36,6 @@ const Register = () => {
     const password = event.target.password.value;
     await createUserWithEmailAndPassword(email, password);
     await updateProfile({ displayName: name });
-    //console.log('Updated profile');
   };
   return (
     <div className="register-form mt-5">
@@ -60,6 +63,7 @@ const Register = () => {
           value="Register"
         />
       </form>
+      {errorElement}
       <p>
         Already have an account?
         <Link
