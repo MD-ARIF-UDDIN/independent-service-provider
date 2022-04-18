@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Checkout = () => {
   const { serviceId } = useParams();
   const submitBook = async () => {
-    toast("Thanks for booking");
+    toast("Thanks for booking.");
   };
   return (
     <div className="service-details">
