@@ -3,6 +3,7 @@
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+    box-shadow: 5px 5px 15px rgb(197, 239, 156);
 }
 .checkout-btn{
     padding: 10px;

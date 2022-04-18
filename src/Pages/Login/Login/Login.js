@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Button, Form } from "react-bootstrap";
+
 import {
   useSendPasswordResetEmail,
   useSignInWithEmailAndPassword,
@@ -19,12 +19,14 @@ const Login = () => {
   const location = useLocation();
 
   let from = location.state?.from?.pathname || "/";
+
   let errorElement;
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
 
   const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
   if (loading || sending) {
     return <Loading></Loading>;
   }
@@ -50,13 +52,13 @@ const Login = () => {
     if (email) {
       await sendPasswordResetEmail(email);
       toast("Sent email");
-    }else{
+    } else {
       toast("please enter your email");
     }
   };
 
   return (
-    <div className="register-form mt-5">
+    <div style={{height:'100vh'}} className="register-form mt-5">
       <h2 className="text-center">Login</h2>
       <form onSubmit={handleSubmit}>
         <input

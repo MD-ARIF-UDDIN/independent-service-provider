@@ -6,9 +6,12 @@ a{
     width: 100%;
 }
 .link:hover{
-color: blue;
+    font-size: 25px;
+    color: chartreuse;
 }
+
 .title{
+    color: chartreuse;
     font-size: 25px;
     font-weight: 700;
 }

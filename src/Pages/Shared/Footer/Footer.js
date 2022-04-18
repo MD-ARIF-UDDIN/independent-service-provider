@@ -1,11 +1,14 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+
 
 const Footer = () => {
+    const date=new Date();
     return (
         <footer id="footer">
             <div>
-            <p className='text-center'><small>copyright Lens king</small><br />All rights and reserved</p>
+            <p className='text-center'><small>copyright Lens king {date.getFullYear()}</small><br />All rights and reserved</p>
+
             
             </div>
             
